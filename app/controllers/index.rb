@@ -1,3 +1,3 @@
 get '/' do
-  redirect 'cicadas'
+  redirect '/cicadas'
 end
