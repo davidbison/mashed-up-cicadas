@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+}
+
+
+h1 {
+  color: green;
+  font-size: 5em;
+  margin-top: 1%;
+  text-align: center;
+  display: block;
+}
+
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -213.5px;
+  margin-left: -213.5px;
+}
+
+
+/*#top {
+  position: absolute;
+  clip: rect(0, 0, 10px, 0);
+}
+
+
+#middle {
+  position: absolute;
+  clip: rect(10px, 0, 10px, 0);
+}
+
+
+#bottom {
+  position: absolute;
+  clip: rect(10px, 0, 0, 0);
+}*/
+
+/*142.3*/
