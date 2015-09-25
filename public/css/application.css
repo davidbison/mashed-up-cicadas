@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background: black url("file://C:\Users\Bison\Desktop\mashed-up-cicadas\public\cicadas\03cityroom-cicadas-superJumbo.jpg");
 }
 
 
@@ -8,34 +8,56 @@ h1 {
   font-size: 5em;
   margin-top: 1%;
   text-align: center;
-  display: block;
 }
 
 
-.container {
+.base {
+  /*height of container (shows forehead)*/
+  height: 500px;
+  /*width of container (shows whole width of image)*/
+  width: 427px;
+  /*sets distance from left side of screen*/
+  left: 36%;
+  /*sets everything outside the container to hidden*/
+  overflow: hidden;
+  /*moves image to center of the screen. could be fixed*/
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -213.5px;
-  margin-left: -213.5px;
 }
 
 
-/*#top {
+.forehead {
+  top: 219px;
+  /*height of container (shows forehead)*/
+  height: 150px;
+  /*width of container (shows whole width of image)*/
+  width: 427px;
+  /*sets distance from left side of screen*/
+  left: 36%;
+  /*sets everything outside the container to hidden*/
+  overflow: hidden;
+  /*moves image to center of the screen. could be fixed*/
   position: absolute;
-  clip: rect(0, 0, 10px, 0);
+
 }
 
 
-#middle {
-  position: absolute;
-  clip: rect(10px, 0, 10px, 0);
+.base #cicadas {
+  position: relative;
+  /*sets height of image within div*/
+  top: 60px;
 }
 
 
+.forehead #cicadas {
+  position: relative;
+}
+
+
+
+/*
 #bottom {
   position: absolute;
   clip: rect(10px, 0, 0, 0);
-}*/
+}
 
 /*142.3*/
