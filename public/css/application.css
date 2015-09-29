@@ -36,15 +36,10 @@ h1 {
 
 
 .middle {
-  /*height of container (shows forehead)*/
   height: 310px;
-  /*width of container (shows whole width of image)*/
   width: 427px;
-  /*sets distance from left side of screen*/
   left: 36%;
-  /*sets everything outside the container to hidden*/
   overflow: hidden;
-  /*moves image to center of the screen. could be fixed*/
   position: absolute;
 }
 
